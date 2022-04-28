@@ -4,13 +4,59 @@
     box-sizing: border-box;
 }
 
-/* header */
+/* top header */
 header {
     background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#top-header {
+    background-color: orange;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px dotted black;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-header span {
+    border: 1px dotted black;
+}
+
+#menu {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* bottom header  */
+.jumbo {
+    background-color: darkblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     /* test */
-    height: 200px;
+    height: 250px;
 }
+
+.jumbo-content {
+    width: 40%;
+    background-color: #ee82ee;
+
+    /* test */
+    height: 80%;
+}
+
+
 
 /* main */
 
