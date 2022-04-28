@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* common */
+div {
+    border: 1.5px dotted black;
+}
+
+
 /* top header */
 header {
     background-color: lightblue;
@@ -16,14 +22,9 @@ header {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    border: 1px dotted black;
     margin: 20px 0;
     margin-left: auto;
     margin-right: auto;
-}
-
-#top-header span {
-    border: 1px dotted black;
 }
 
 #menu {
@@ -51,23 +52,29 @@ ul {
 .jumbo-content {
     width: 40%;
     background-color: #ee82ee;
+    border: 1px dotted black;
 
     /* test */
     height: 80%;
 }
 
-
-
 /* main */
-
 .section {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     /* test */
-    height: 300px;
+    height: 400px;
 }
 
 .big-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     /* test */
-    height: 500px;
+    height: 600px;
 }
 
 .grey {
@@ -78,8 +85,31 @@ ul {
     background-color: white;
 }
 
-/* footer */
+.main-column {
+    background-color: #1e90ff;
+    width: 36%;
 
+    /* test */
+    height: 80%;
+}
+
+.aside-column {
+    background-color: pink;
+    width: 24%;
+
+    /* test */
+    height: 80%;
+}
+
+.big-column {
+    background-color: green;
+    width: 60%;
+
+    /* test */
+    height: 90%;
+}
+
+/* footer */
 footer {
     background-color: black;
 
