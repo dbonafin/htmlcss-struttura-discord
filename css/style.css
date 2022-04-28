@@ -85,7 +85,7 @@ ul {
     background-color: white;
 }
 
-.main-column {
+.main-col {
     background-color: #1e90ff;
     width: 36%;
 
@@ -93,7 +93,7 @@ ul {
     height: 80%;
 }
 
-.aside-column {
+.aside-col {
     background-color: pink;
     width: 24%;
 
@@ -101,7 +101,7 @@ ul {
     height: 80%;
 }
 
-.big-column {
+.big-col {
     background-color: green;
     width: 60%;
 
@@ -114,5 +114,66 @@ footer {
     background-color: black;
 
     /* test */
+    height: 450px;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+
+    /* test */
     height: 400px;
+}
+
+.main-col-footer {
+    background-color: lightseagreen;
+    width: 36%;
+    display: flex;
+
+    /* test */
+    height: 80%;
+}
+
+.aside-col-footer {
+    background-color: peru;
+    width: 24%;
+
+    /* test */
+    height: 80%;
+}
+
+.little-col-footer {
+    width: 25%;
+    height: 100%;
+    border: 1px dotted white;
+}
+
+footer hr {
+    border: 0.3px solid white;
+    margin-top: -40px;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    /* test */
+    height: 80px;
+}
+
+.botfoot-info {
+    background-color: #7fffd4;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+}
+
+.botfoot-info div {
+    background-color: orange;
 }
