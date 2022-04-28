@@ -4,3 +4,39 @@
     box-sizing: border-box;
 }
 
+/* header */
+header {
+    background-color: lightblue;
+
+    /* test */
+    height: 200px;
+}
+
+/* main */
+
+.section {    
+    /* test */
+    height: 300px;
+}
+
+.big-section {
+    /* test */
+    height: 500px;
+}
+
+.grey {
+    background-color: lightgray;
+}
+
+.white {
+    background-color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+
+    /* test */
+    height: 400px;
+}
